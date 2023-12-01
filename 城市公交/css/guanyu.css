@@ -1,0 +1,105 @@
+#container {
+    position: relative;
+    margin: 0px auto;
+    text-align: left;
+    width: 1160px;
+    padding: 10px 10px 15px 10px;
+    border: 0px solid #EBEBEB;
+}
+#crumb {
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-image: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #017BC6;
+}
+#crumb span {
+    /* background: url(img/hom.gif) no-repeat 5px 50%; */
+    text-indent: 25px;
+    float: left;
+    margin-right: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#crumb * {
+    color: #686868;
+}
+#crumb h2 {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    text-indent: 35px;
+    display: none;
+}
+#main {
+    padding-top: 10px;
+    background-color: #fff;
+}
+#left {
+    padding-left: 0px;
+    width: 240px;
+    margin-right: 15px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+#sideMenu {
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+}
+#sideMenu h3 {
+    border: 0px solid #DCDCDC;
+    text-indent: 25px;
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    background-image: url(../imgs/sideMenuh3.jpg);
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    color: #FFFFFF;
+}
+#sideMenu li {
+    height: 46px;
+    margin-top: 2px;
+}
+#sideMenu a:hover, #currentLi a:link, #sideMenu #currentLi a:visited, #sideMenu #currentLi a:hover {
+    background-position: left bottom;
+    text-decoration: none;
+}
+#sideMenu a {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-indent: 35px;
+    background-image: url(../imgs/li.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#right {
+    width: 895px;
+    overflow-x: hidden;
+    float: left;
+    min-height: 280px;
+}
+#rightBox {
+    overflow-x: hidden;
+}
+#content {
+    font-size: 16px;
+    padding: 0px 80px 10px 80px;
+    line-height: 220%;
+}
+#content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
